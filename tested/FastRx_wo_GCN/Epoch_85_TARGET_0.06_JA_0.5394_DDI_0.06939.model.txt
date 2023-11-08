@@ -1,0 +1,22 @@
+Namespace(Test=True, model_name='FastRx_wo_GCN', num_epochs=100, optim='Adam', sched='Cyclic', resume_path='Epoch_85_TARGET_0.06_JA_0.5394_DDI_0.06939.model', log_dir='lr1e-4_ddi0.06_dim64_alpha0.95_thres0.5_visitlg2_Adam_wd1e-6_Reduce4e-5_FastRx_wo_GCN_emb_dim_ff128_seed1203', lr=0.0001, base_lr=0.01, weight_decay=1e-06, target_ddi=0.06, kp=0.05, dim=64, cuda=0, alpha=0.95, threshold=0.5)
+
+DDI Rate: 0.06825, Jaccard: 0.5415,  PRAUC: 0.7873, AVG_F1: 0.6944, AVG_MED: 23.37
+DDI Rate: 0.06768, Jaccard: 0.5368,  PRAUC: 0.7864, AVG_F1: 0.6899, AVG_MED: 23.28
+DDI Rate: 0.06775, Jaccard: 0.5395,  PRAUC: 0.7879, AVG_F1: 0.6922, AVG_MED: 23.31
+DDI Rate: 0.069, Jaccard: 0.5449,  PRAUC: 0.7898, AVG_F1: 0.6977, AVG_MED: 23.07
+DDI Rate: 0.06843, Jaccard: 0.5374,  PRAUC: 0.7845, AVG_F1: 0.6905, AVG_MED: 22.92
+DDI Rate: 0.07011, Jaccard: 0.532,  PRAUC: 0.7804, AVG_F1: 0.6855, AVG_MED: 22.91
+DDI Rate: 0.06829, Jaccard: 0.5462,  PRAUC: 0.7947, AVG_F1: 0.6977, AVG_MED: 22.8
+DDI Rate: 0.06867, Jaccard: 0.5444,  PRAUC: 0.7903, AVG_F1: 0.6962, AVG_MED: 23.28
+DDI Rate: 0.06763, Jaccard: 0.5398,  PRAUC: 0.7885, AVG_F1: 0.6928, AVG_MED: 23.05
+DDI Rate: 0.06932, Jaccard: 0.5425,  PRAUC: 0.7908, AVG_F1: 0.6948, AVG_MED: 23.15
++---------+---------+--------+
+|         |   MEAN  |  STD   |
++---------+---------+--------+
+|   DDI   |  0.0685 | 0.0008 |
+|    JA   |  0.5405 | 0.0041 |
+|  AVG_F1 |  0.6932 | 0.0036 |
+|  PRAUC  |  0.7881 | 0.0037 |
+| AVG_MED | 23.1122 | 0.1861 |
++---------+---------+--------+
+test time: 76.58214139938354

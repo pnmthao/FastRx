@@ -1,0 +1,8 @@
+numpy==1.22.4
+einops==0.6.0
+torch==1.13.1
+dill==0.3.6
+prettytable==3.7.0
+scikit-learn==1.2.2
+tensorboard==2.11.2
+six
