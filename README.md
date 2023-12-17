@@ -1,4 +1,4 @@
-# FastRx: Medication Recommendation Model Based on Fastformer and Knowledge Graphs for Personalized Prescriptions
+# FastRx: Exploring Fastformer and Knowledge Graph for Personalized Medication Recommendations
 
 ![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Pytorch Version](https://img.shields.io/badge/Pytorch-1.13.1-orange)
