@@ -267,8 +267,8 @@ def main():
                 if current_ddi_rate <= args.target_ddi:
                     loss = args.alpha * loss_bce + (1 - args.alpha) * loss_multi
                 else:
-                    beta = min(0, 1 + (args.target_ddi - current_ddi_rate) / args.kp)
-                    loss = beta * (args.alpha * loss_bce + (1 - args.alpha) * loss_multi) + (1 - beta) * loss_ddi
+                    beta = 1 - min(0, 1 + (args.target_ddi - current_ddi_rate) / args.kp)
+                    loss = (args.alpha * loss_bce + (1 - args.alpha) * loss_multi) + beta * loss_ddi
                 return loss
 
             for idx, adm in enumerate(input):
