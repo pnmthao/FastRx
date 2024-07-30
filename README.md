@@ -77,6 +77,8 @@ If you use this code in your research, please cite it as follows:
 ## Experimental Results
 
 ### Performance Comparison of Different Methods on MIMIC-III dataset
+<div style="font-size: 12px;">
+
 | Method   | DDI ↓          | Jaccard ↑        | F1 ↑             | PRAUC ↑          | Avg.# of Drugs       |
 |----------|:----------------:|:------------------:|:------------------:|:------------------:|:----------------------:|
 | LR       | 0.0829 ± 0.0009| 0.4865 ± 0.0021  | 0.6434 ± 0.0019  | 0.7509 ± 0.0018  | 16.1773 ± 0.0942     |
@@ -94,8 +96,11 @@ If you use this code in your research, please cite it as follows:
 | StratMed [^12] | 0.0642 ± 0.0005| *0.5321 ± 0.0035*  | *0.6861 ± 0.0034*  | *0.7779 ± 0.0043*  | 20.5318 ± 0.1681     |
 | FastRx   | 0.0669 ± 0.0007| **0.5443 ± 0.0037**  | **0.6963 ± 0.0032**  | **0.7882 ± 0.0037**  | 23.0349 ± 0.1909     |
 
+</div>
 
 ### Ablation Study for FastRx on MIMIC-III dataset
+<div style="font-size: 12px;">
+
 | Model             |       DDI  ↓       |     Jaccard ↑     |        F1 ↑       |      PRAUC ↑      | Avg.# of Drugs |
 |-------------------|:---------------:|:---------------:|:---------------:|:---------------:|:-------------------:|
 | FastRx w/o $\mathcal{D}$      | 0.0673 ± 0.0008 | 0.5115 ± 0.0041 | 0.6676 ± 0.0038 | 0.7647 ± 0.0037 |   22.1290 ± 0.0156  |
@@ -106,6 +111,7 @@ If you use this code in your research, please cite it as follows:
 | FastRx w/o Transformer | 0.0685 ± 0.0008 | 0.5294 ± 0.0051 | 0.6831 ± 0.0045 | 0.7802 ± 0.0038 | 23.6528 ± 0.2228  |
 | FastRx            | *0.0669 ± 0.0007* | **0.5443 ± 0.0037** | **0.6963 ± 0.0032** | **0.7882 ± 0.0037** |   23.0349 ± 0.1909  |
 
+</div>
 
 ## Contact Information
 For inquiries, collaboration, or support, please contact me:
